@@ -1,12 +1,14 @@
 # Kortix: the open source Claude Cowork alternative
 
-Kortix is the open-source AI Management System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. This source-cited comparison covers the tools a team can move to when Claude Cowork stops fitting: what each one is, where it runs, which models it accepts, and what the company owns.
+Kortix is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. This source-cited comparison covers the tools a team can move to when Claude Cowork stops fitting: what each one is, where it runs, which models it accepts, and what the company owns.
+
+The same comparison lives on the web with sources: the [comparison hub](https://claudecoworkalternative.com/comparison) carries the field side by side, [Cowork vs OpenWork](https://claudecoworkalternative.com/claude-cowork-vs-openwork) takes the closest rival apart, and [programmatic access](https://claudecoworkalternative.com/claude-cowork-api) shows what an owned system exposes that Cowork does not.
 
 Every competitor fact links to that competitor's own site or repository. A feature list matters less than which tool leaves the company in control of its agents, its model keys, its data and the changes those agents make.
 
 ## What Kortix is
 
-Kortix is the open-source AI Management System: the platform that holds a company's agents, skills, memory and connector configuration as files in one git repo, and gives every agent session its own isolated Linux machine. It suits teams that want to own an agent workforce.
+Kortix is the open-source AI Operating System: the platform that holds a company's agents, skills, memory and connector configuration as files in one git repo, and gives every agent session its own isolated Linux machine. It suits teams that want to own an agent workforce.
 
 Six things decide the comparison:
 
@@ -17,7 +19,7 @@ Six things decide the comparison:
 - An isolated Linux machine per session, thousands running in parallel from one config.
 - One gate to land work. Every change arrives as a change request a person reads as a diff.
 
-Kortix is open source (Elastic License 2.0) — self-host, read and modify the code. The install takes one command: `curl -fsSL https://kortix.com/install | bash`. The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna), and the docs are at [Kortix docs](https://kortix.com/docs).
+Kortix is open source — self-host, read and modify the code. The install takes one command: `curl -fsSL https://kortix.com/install | bash`. The source is at [Kortix on GitHub](https://github.com/kortix-ai/suna), and the docs are at [Kortix docs](https://kortix.com/docs).
 
 ## How the alternatives compare
 
@@ -25,7 +27,7 @@ Ownership and deployment decide where your data and configuration live; models, 
 
 | Option | Open source (licence) | Configuration you own | Where it runs |
 |---|---|---|---|
-| Kortix | Yes (Elastic License 2.0) | Agents, skills, memory and connectors in one git repo | Laptop, VPS, VPC, on-prem or managed cloud |
+| Kortix | Yes | Agents, skills, memory and connectors in one git repo | Laptop, VPS, VPC, on-prem or managed cloud |
 | Claude Cowork | No (closed) | Held inside Anthropic's product | Anthropic's servers, with a desktop app for local files |
 | OpenWork | Yes (MIT core) | Desktop workspaces and shared skills | Local desktop on macOS, Windows, Linux |
 | OpenHands | Yes (MIT) | Agent and automation config on your infrastructure | Docker, VMs or your own servers |
