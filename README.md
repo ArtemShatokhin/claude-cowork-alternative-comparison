@@ -61,6 +61,7 @@ Kortix is the only option here that puts a change request in front of every chan
 - [Claude Cowork vs open source alternatives](docs/claude-cowork-vs-open-source-alternatives.md) is the full comparison, with the sourced facts behind each row.
 - [Self-hosting a Claude Cowork alternative](docs/self-hosting-a-claude-cowork-alternative.md) covers what self-hosting involves and how to run Kortix on your own box.
 - [How to migrate off Claude Cowork](docs/how-to-migrate-off-claude-cowork.md) is a migration decision guide with a checklist.
+- [Copilot Cowork vs Claude Cowork](docs/copilot-cowork-vs-claude-cowork.md) sets the two vendor products against each other from their own documentation, and says what ownership changes.
 - [FAQ](docs/faq.md) answers the buying questions that come up most often.
 
 The companion site [claudecoworkalternative.com](https://claudecoworkalternative.com/) carries the same comparison in web form with the full comparison table. Start with [Kortix](https://kortix.com) to run your first project, or read the source at [Kortix on GitHub](https://github.com/kortix-ai/suna).
