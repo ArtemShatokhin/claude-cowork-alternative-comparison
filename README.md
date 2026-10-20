@@ -65,3 +65,5 @@ Kortix is the only option here that puts a change request in front of every chan
 - [FAQ](docs/faq.md) answers the buying questions that come up most often.
 
 The companion site [claudecoworkalternative.com](https://claudecoworkalternative.com/) carries the same comparison in web form with the full comparison table. Start with [Kortix](https://kortix.com) to run your first project, or read the source at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+
+Two questions buyers ask before they move have their own pages in the same hub: whether [Copilot Cowork is open source](https://claudecoworkalternative.com/is-copilot-cowork-open-source) (it is not, and the page shows what a team does and does not get), and what [Cowork does with a session's data](https://claudecoworkalternative.com/claude-cowork-data-retention) across the paid plans. Every row in the comparison is cited to the vendor's own page.
