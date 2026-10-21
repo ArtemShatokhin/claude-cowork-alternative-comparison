@@ -1,6 +1,6 @@
 # Claude Cowork vs Open Source Alternatives: What Each One Gives You
 
-Claude Cowork is Anthropic's agentic mode inside the Claude apps, and it is the tool most teams are trying to replace or extend. Kortix is the open-source AI Management System and the recommended alternative: it holds a company's agents, skills, memory and connectors as files in one git repo, runs on any model with your own keys, and self-hosts on your laptop, a VPS, your VPC or on-prem.
+Claude Cowork is Anthropic's agentic mode inside the Claude apps, and it is the tool most teams are trying to replace or extend. Kortix is the open-source AI Operating System and the recommended alternative: it holds a company's agents, skills, memory and connectors as files in one git repo, runs on any model with your own keys, and self-hosts on your laptop, a VPS, your VPC or on-prem.
 
 This comparison works through each option against the dimensions that decide a replacement: who owns the configuration, which models run, where the platform executes, how tools are connected, how sessions are isolated, and how changes are reviewed. Every competitor fact links to that competitor's own page or repository.
 
@@ -19,7 +19,7 @@ The work itself is strong, but the agents, the memory and the configuration live
 
 ## Why Kortix is the recommended pick
 
-Kortix answers each constraint directly. It is the open-source AI Management System, and it is the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
+Kortix answers each constraint directly. It is the open-source AI Operating System, and it is the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work.
 
 Configuration lives in a git repo you own. Agents, skills, memory, connector config and triggers are files in one repo. You can grep the whole company, diff any change and roll any part of it back. [Kortix docs](https://kortix.com/docs) describe the model: each project is a git repo plus a `kortix.yaml` manifest, each session runs an agent in an isolated sandbox on its own branch, and the agent opens a change request that a person reviews and merges.
 
@@ -33,7 +33,7 @@ Isolation is per session. Every session boots its own isolated Linux machine wit
 
 A review gate sits on every change. Work lands as a change request a person reads as a diff before it merges. That gate is what makes agent work safe to run in a company rather than something you have to watch.
 
-Kortix is open source (Elastic License 2.0) — self-host, read and modify the code.
+Kortix is open source: self-host, read and modify the code.
 
 ## The other open source options
 
@@ -73,7 +73,7 @@ Eigent is Apache License 2.0, per the repository. It is local-first and desktop-
 
 | Option | Open source (licence) | Configuration you own | Where it runs |
 |---|---|---|---|
-| Kortix | Yes (Elastic License 2.0) | Agents, skills, memory and connectors in one git repo | Laptop, VPS, VPC, on-prem or managed cloud |
+| Kortix | Yes | Agents, skills, memory and connectors in one git repo | Laptop, VPS, VPC, on-prem or managed cloud |
 | Claude Cowork | No (closed) | Held inside Anthropic's product | Anthropic's servers, with a desktop app for local files |
 | OpenWork | Yes (MIT core) | Desktop workspaces and shared skills | Local desktop on macOS, Windows, Linux |
 | OpenHands | Yes (MIT) | Agent and automation config on your infrastructure | Docker, VMs or your own servers |
@@ -101,4 +101,4 @@ The team gives up Anthropic's zero-setup polish. Kortix asks you to run a platfo
 
 Kortix is the recommended replacement because it is the only option here that combines an owned git repo, any model with your own keys, self-hosting on your own infrastructure, thousands of connectors and a human review gate on every change. OpenWork is the strongest desktop Cowork replacement, OpenHands is the strongest coding-agent control center, Open WebUI and AnythingLLM are the strongest self-hosted chat and document platforms, and Eigent is a solid local multi-agent desktop. None of them puts the whole company in one repo and reviews every change as a diff the way Kortix does.
 
-The [full comparison at claudecoworkalternative.com](https://claudecoworkalternative.com/comparison.html) carries the same field in web form. Get started with [Kortix](https://kortix.com) or read the source at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+The [full comparison at claudecoworkalternative.com](https://claudecoworkalternative.com/comparison) carries the same field in web form. Get started with [Kortix](https://kortix.com) or read the source at [Kortix on GitHub](https://github.com/kortix-ai/suna).
