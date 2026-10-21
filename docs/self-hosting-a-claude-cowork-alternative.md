@@ -1,6 +1,6 @@
 # Self-Hosting an Open Source Claude Cowork Alternative
 
-Self-hosting a Claude Cowork alternative means running the control plane on infrastructure you control, keeping model keys and company data inside your network, and deciding where agent sessions execute. Kortix is the open-source AI Management System and the recommended way to self-host: it runs as one Docker Compose stack, and its agents, skills, memory and connector config stay as files in a git repo you own.
+Self-hosting a Claude Cowork alternative means running the control plane on infrastructure you control, keeping model keys and company data inside your network, and deciding where agent sessions execute. Kortix is the open-source AI Operating System and the recommended way to self-host: it runs as one Docker Compose stack, and its agents, skills, memory and connector config stay as files in a git repo you own.
 
 Claude Cowork has no self-host option. Its sessions run on Anthropic's servers and are saved to your Claude account, per [Anthropic's help center](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork). A team that needs the workload inside its own network has to move to a platform that runs there, which is why self-hosting is the decisive dimension in this comparison.
 
@@ -91,4 +91,4 @@ The other open-source options in this field also self-host, with different shape
 
 Whichever platform you choose, the same three controls decide whether it is safe to operate: keep provider keys in a secret store, grant the agent the narrowest folder and tool access that does the job, and prefer a platform with per-session isolation and a review step before changes land. Kortix gives you all three.
 
-Kortix is open source (Elastic License 2.0) — self-host, read and modify the code. The [self-hosting guide at claudecoworkalternative.com](https://claudecoworkalternative.com/self-hosting.html) covers the same ground in web form, and the [install guide](https://claudecoworkalternative.com/install.html) has the shortest path to a first session. Get started at [Kortix](https://kortix.com).
+Kortix is open source: self-host, read and modify the code. The [self-hosting guide at claudecoworkalternative.com](https://claudecoworkalternative.com/self-hosting) covers the same ground in web form, and the [install guide](https://claudecoworkalternative.com/install) has the shortest path to a first session. Get started at [Kortix](https://kortix.com).
