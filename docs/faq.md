@@ -6,7 +6,7 @@ No. Claude Cowork is a closed Anthropic product, and Anthropic publishes no sour
 
 ## What is the best open source Claude Cowork alternative?
 
-Kortix is the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. It is the open-source AI Management System: agents, skills, company memory and connector config are files in one git repo you own, sessions run on any model with your own keys, and every change lands as a change request a person reviews as a diff. Kortix is open source (Elastic License 2.0) — self-host, read and modify the code.
+Kortix is the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. It is the open-source AI Operating System: agents, skills, company memory and connector config are files in one git repo you own, sessions run on any model with your own keys, and every change lands as a change request a person reviews as a diff. Kortix is open source: self-host, read and modify the code.
 
 ## Can I self-host a Claude Cowork alternative?
 
@@ -30,4 +30,4 @@ Yes, on most of the options here. Kortix, OpenWork, OpenHands, Open WebUI, Anyth
 
 ## What does Kortix cost and is self-hosting free?
 
-Self-hosting Kortix is free; you provide the hardware and your own model keys. Kortix Cloud lists a free tier and a Team plan at $40/seat/month plus usage, quoted as written at [Kortix pricing](https://kortix.com/pricing). For comparison, Claude Cowork requires a paid Claude plan. The web version of this FAQ is at [claudecoworkalternative.com](https://claudecoworkalternative.com/faq.html).
+Self-hosting Kortix is free; you provide the hardware and your own model keys. Kortix Cloud lists a free tier and a Team plan at $40/seat/month plus usage, quoted as written at [Kortix pricing](https://kortix.com/pricing). For comparison, Claude Cowork requires a paid Claude plan. The web version of this FAQ is at [claudecoworkalternative.com](https://claudecoworkalternative.com/faq).
