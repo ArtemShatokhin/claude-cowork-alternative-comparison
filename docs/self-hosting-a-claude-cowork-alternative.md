@@ -10,7 +10,7 @@ A self-hosted agent platform has four parts. Know which part you are responsible
 
 The control plane is the web app, the API, the language-model gateway and the database. For Kortix this is one Docker Compose stack containing the frontend, the API, the LLM gateway and the Supabase distribution, run with [the self-hosting docs](https://kortix.com/docs/host).
 
-The agent runtime is where sessions actually execute. Kortix runs agent sessions on a separate sandbox provider rather than on the control-plane stack. Daytona is the default, and Platinum and E2B are also supported.
+The agent runtime is where sessions actually execute. Kortix runs agent sessions on a separate sandbox provider rather than on the control-plane stack. Platinum is the default, and Daytona remains available as a legacy fallback.
 
 Secrets and model keys are the credentials the platform uses to reach model providers and third-party tools. Kortix brokers connector credentials server-side so raw keys never enter the agent's machine, and a self-hosted instance uses your own LLM key by default.
 
